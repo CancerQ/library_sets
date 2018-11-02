@@ -13,6 +13,35 @@
 		10CA8C632133F35B004CFD6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10CA8C622133F35B004CFD6D /* Assets.xcassets */; };
 		10CA8C662133F35B004CFD6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10CA8C642133F35B004CFD6D /* LaunchScreen.storyboard */; };
 		10CA8C692133F35B004CFD6D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10CA8C682133F35B004CFD6D /* main.m */; };
+		10CA8C742133F712004CFD6D /* UIView+YZAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 10CA8C732133F712004CFD6D /* UIView+YZAdd.m */; };
+		10E0CAD12137DF9B004637AC /* UIColor+YZAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E0CAD02137DF9B004637AC /* UIColor+YZAdd.m */; };
+		10E0CAD52137E12E004637AC /* NSString+YZAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E0CAD42137E12E004637AC /* NSString+YZAdd.m */; };
+		10E0CAF02137E1B7004637AC /* NSBundle+YZAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E0CAD62137E1B0004637AC /* NSBundle+YZAdd.m */; };
+		10E0CAF12137E1B7004637AC /* NSArray+YZAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E0CAD72137E1B0004637AC /* NSArray+YZAdd.m */; };
+		10E0CAF22137E1B7004637AC /* NSDate+YZAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E0CAD92137E1B0004637AC /* NSDate+YZAdd.m */; };
+		10E0CAF42137E1B7004637AC /* NSKeyedUnarchiver+YZAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E0CAE02137E1B2004637AC /* NSKeyedUnarchiver+YZAdd.m */; };
+		10E0CAF52137E1B7004637AC /* NSDictionary+YZAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E0CAE22137E1B2004637AC /* NSDictionary+YZAdd.m */; };
+		10E0CAF62137E1B7004637AC /* NSNumber+YZAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E0CAE52137E1B3004637AC /* NSNumber+YZAdd.m */; };
+		10E0CAF72137E1B7004637AC /* NSThread+YZAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E0CAE72137E1B4004637AC /* NSThread+YZAdd.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		10E0CAF82137E1B7004637AC /* NSData+YZAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E0CAE82137E1B5004637AC /* NSData+YZAdd.m */; };
+		10E0CAF92137E1B7004637AC /* NSNotificationCenter+YZAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E0CAEA2137E1B5004637AC /* NSNotificationCenter+YZAdd.m */; };
+		10E0CAFA2137E1B7004637AC /* NSObject+YZAddForKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E0CAEB2137E1B6004637AC /* NSObject+YZAddForKVO.m */; };
+		10E0CAFB2137E1B7004637AC /* NSObject+YZAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E0CAEE2137E1B7004637AC /* NSObject+YZAdd.m */; };
+		10E0CAFC2137E1B7004637AC /* NSTimer+YZAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E0CAEF2137E1B7004637AC /* NSTimer+YZAdd.m */; };
+		10E0CAFF2137E481004637AC /* UIDevice+YZAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E0CAFD2137E481004637AC /* UIDevice+YZAdd.m */; };
+		10E0CB022138D08D004637AC /* UIBarButtonItem+YZAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E0CB012138D08D004637AC /* UIBarButtonItem+YZAdd.m */; };
+		10E0CB192138D15D004637AC /* UITableView+YZAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E0CB042138D157004637AC /* UITableView+YZAdd.m */; };
+		10E0CB1A2138D15D004637AC /* UIFont+YZAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E0CB052138D157004637AC /* UIFont+YZAdd.m */; };
+		10E0CB1B2138D15D004637AC /* UIApplication+YZAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E0CB062138D157004637AC /* UIApplication+YZAdd.m */; };
+		10E0CB1C2138D15D004637AC /* UIImage+YZAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E0CB072138D158004637AC /* UIImage+YZAdd.m */; };
+		10E0CB1D2138D15D004637AC /* UIBezierPath+YZAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E0CB092138D159004637AC /* UIBezierPath+YZAdd.m */; };
+		10E0CB1E2138D15D004637AC /* UIGestureRecognizer+YZAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E0CB0A2138D159004637AC /* UIGestureRecognizer+YZAdd.m */; };
+		10E0CB1F2138D15D004637AC /* UIScrollView+YZAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E0CB0E2138D15A004637AC /* UIScrollView+YZAdd.m */; };
+		10E0CB202138D15D004637AC /* UIScreen+YZAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E0CB102138D15A004637AC /* UIScreen+YZAdd.m */; };
+		10E0CB212138D15D004637AC /* UIControl+YZAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E0CB112138D15B004637AC /* UIControl+YZAdd.m */; };
+		10E0CB222138D15D004637AC /* UITextField+YZAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E0CB132138D15B004637AC /* UITextField+YZAdd.m */; };
+		10E0CB292138D304004637AC /* CALayer+YZAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E0CB262138D303004637AC /* CALayer+YZAdd.m */; };
+		10E0CB2A2138D304004637AC /* YZCGUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E0CB282138D304004637AC /* YZCGUtilities.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +55,66 @@
 		10CA8C652133F35B004CFD6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		10CA8C672133F35B004CFD6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		10CA8C682133F35B004CFD6D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		10CA8C722133F712004CFD6D /* UIView+YZAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+YZAdd.h"; sourceTree = "<group>"; };
+		10CA8C732133F712004CFD6D /* UIView+YZAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+YZAdd.m"; sourceTree = "<group>"; };
+		10CA8C752133F8A0004CFD6D /* YZTirmMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZTirmMacro.h; sourceTree = "<group>"; };
+		10E0CACF2137DF9B004637AC /* UIColor+YZAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+YZAdd.h"; sourceTree = "<group>"; };
+		10E0CAD02137DF9B004637AC /* UIColor+YZAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+YZAdd.m"; sourceTree = "<group>"; };
+		10E0CAD32137E12E004637AC /* NSString+YZAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+YZAdd.h"; sourceTree = "<group>"; };
+		10E0CAD42137E12E004637AC /* NSString+YZAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+YZAdd.m"; sourceTree = "<group>"; };
+		10E0CAD62137E1B0004637AC /* NSBundle+YZAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+YZAdd.m"; sourceTree = "<group>"; };
+		10E0CAD72137E1B0004637AC /* NSArray+YZAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+YZAdd.m"; sourceTree = "<group>"; };
+		10E0CAD82137E1B0004637AC /* NSNotificationCenter+YZAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+YZAdd.h"; sourceTree = "<group>"; };
+		10E0CAD92137E1B0004637AC /* NSDate+YZAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+YZAdd.m"; sourceTree = "<group>"; };
+		10E0CADB2137E1B1004637AC /* NSDate+YZAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+YZAdd.h"; sourceTree = "<group>"; };
+		10E0CADC2137E1B1004637AC /* NSKeyedUnarchiver+YZAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSKeyedUnarchiver+YZAdd.h"; sourceTree = "<group>"; };
+		10E0CADD2137E1B1004637AC /* NSArray+YZAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+YZAdd.h"; sourceTree = "<group>"; };
+		10E0CADE2137E1B1004637AC /* NSObject+YZAddForKVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YZAddForKVO.h"; sourceTree = "<group>"; };
+		10E0CADF2137E1B2004637AC /* NSData+YZAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+YZAdd.h"; sourceTree = "<group>"; };
+		10E0CAE02137E1B2004637AC /* NSKeyedUnarchiver+YZAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSKeyedUnarchiver+YZAdd.m"; sourceTree = "<group>"; };
+		10E0CAE12137E1B2004637AC /* NSNumber+YZAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+YZAdd.h"; sourceTree = "<group>"; };
+		10E0CAE22137E1B2004637AC /* NSDictionary+YZAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+YZAdd.m"; sourceTree = "<group>"; };
+		10E0CAE32137E1B3004637AC /* NSBundle+YZAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+YZAdd.h"; sourceTree = "<group>"; };
+		10E0CAE52137E1B3004637AC /* NSNumber+YZAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+YZAdd.m"; sourceTree = "<group>"; };
+		10E0CAE62137E1B3004637AC /* NSThread+YZAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSThread+YZAdd.h"; sourceTree = "<group>"; };
+		10E0CAE72137E1B4004637AC /* NSThread+YZAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSThread+YZAdd.m"; sourceTree = "<group>"; };
+		10E0CAE82137E1B5004637AC /* NSData+YZAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+YZAdd.m"; sourceTree = "<group>"; };
+		10E0CAE92137E1B5004637AC /* NSDictionary+YZAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+YZAdd.h"; sourceTree = "<group>"; };
+		10E0CAEA2137E1B5004637AC /* NSNotificationCenter+YZAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNotificationCenter+YZAdd.m"; sourceTree = "<group>"; };
+		10E0CAEB2137E1B6004637AC /* NSObject+YZAddForKVO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YZAddForKVO.m"; sourceTree = "<group>"; };
+		10E0CAEC2137E1B6004637AC /* NSTimer+YZAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+YZAdd.h"; sourceTree = "<group>"; };
+		10E0CAED2137E1B6004637AC /* NSObject+YZAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YZAdd.h"; sourceTree = "<group>"; };
+		10E0CAEE2137E1B7004637AC /* NSObject+YZAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YZAdd.m"; sourceTree = "<group>"; };
+		10E0CAEF2137E1B7004637AC /* NSTimer+YZAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+YZAdd.m"; sourceTree = "<group>"; };
+		10E0CAFD2137E481004637AC /* UIDevice+YZAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+YZAdd.m"; sourceTree = "<group>"; };
+		10E0CAFE2137E481004637AC /* UIDevice+YZAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+YZAdd.h"; sourceTree = "<group>"; };
+		10E0CB002138D08D004637AC /* UIBarButtonItem+YZAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+YZAdd.h"; sourceTree = "<group>"; };
+		10E0CB012138D08D004637AC /* UIBarButtonItem+YZAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+YZAdd.m"; sourceTree = "<group>"; };
+		10E0CB032138D156004637AC /* UIControl+YZAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+YZAdd.h"; sourceTree = "<group>"; };
+		10E0CB042138D157004637AC /* UITableView+YZAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+YZAdd.m"; sourceTree = "<group>"; };
+		10E0CB052138D157004637AC /* UIFont+YZAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+YZAdd.m"; sourceTree = "<group>"; };
+		10E0CB062138D157004637AC /* UIApplication+YZAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+YZAdd.m"; sourceTree = "<group>"; };
+		10E0CB072138D158004637AC /* UIImage+YZAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+YZAdd.m"; sourceTree = "<group>"; };
+		10E0CB092138D159004637AC /* UIBezierPath+YZAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+YZAdd.m"; sourceTree = "<group>"; };
+		10E0CB0A2138D159004637AC /* UIGestureRecognizer+YZAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+YZAdd.m"; sourceTree = "<group>"; };
+		10E0CB0B2138D159004637AC /* UIGestureRecognizer+YZAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+YZAdd.h"; sourceTree = "<group>"; };
+		10E0CB0C2138D15A004637AC /* UIBezierPath+YZAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+YZAdd.h"; sourceTree = "<group>"; };
+		10E0CB0D2138D15A004637AC /* UIScrollView+YZAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+YZAdd.h"; sourceTree = "<group>"; };
+		10E0CB0E2138D15A004637AC /* UIScrollView+YZAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+YZAdd.m"; sourceTree = "<group>"; };
+		10E0CB0F2138D15A004637AC /* UIScreen+YZAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+YZAdd.h"; sourceTree = "<group>"; };
+		10E0CB102138D15A004637AC /* UIScreen+YZAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+YZAdd.m"; sourceTree = "<group>"; };
+		10E0CB112138D15B004637AC /* UIControl+YZAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+YZAdd.m"; sourceTree = "<group>"; };
+		10E0CB122138D15B004637AC /* UITextField+YZAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+YZAdd.h"; sourceTree = "<group>"; };
+		10E0CB132138D15B004637AC /* UITextField+YZAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+YZAdd.m"; sourceTree = "<group>"; };
+		10E0CB142138D15C004637AC /* UIApplication+YZAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+YZAdd.h"; sourceTree = "<group>"; };
+		10E0CB152138D15C004637AC /* UIFont+YZAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+YZAdd.h"; sourceTree = "<group>"; };
+		10E0CB162138D15C004637AC /* UITableView+YZAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+YZAdd.h"; sourceTree = "<group>"; };
+		10E0CB182138D15D004637AC /* UIImage+YZAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+YZAdd.h"; sourceTree = "<group>"; };
+		10E0CB252138D303004637AC /* CALayer+YZAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+YZAdd.h"; sourceTree = "<group>"; };
+		10E0CB262138D303004637AC /* CALayer+YZAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+YZAdd.m"; sourceTree = "<group>"; };
+		10E0CB272138D303004637AC /* YZCGUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZCGUtilities.h; sourceTree = "<group>"; };
+		10E0CB282138D304004637AC /* YZCGUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZCGUtilities.m; sourceTree = "<group>"; };
+		10E0CB2B2138D386004637AC /* YZTrim.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZTrim.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				10CA8C582133F352004CFD6D /* YZMySelfLibrary */,
+				10CA8C6F2133F6F7004CFD6D /* Trim */,
 				10CA8C572133F352004CFD6D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -69,6 +159,106 @@
 				10CA8C682133F35B004CFD6D /* main.m */,
 			);
 			path = YZMySelfLibrary;
+			sourceTree = "<group>";
+		};
+		10CA8C6F2133F6F7004CFD6D /* Trim */ = {
+			isa = PBXGroup;
+			children = (
+				10E0CB2B2138D386004637AC /* YZTrim.h */,
+				10CA8C702133F6F7004CFD6D /* Base */,
+			);
+			name = Trim;
+			path = ../Trim;
+			sourceTree = "<group>";
+		};
+		10CA8C702133F6F7004CFD6D /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				10E0CAD22137E110004637AC /* Foundation */,
+				10CA8C712133F6F7004CFD6D /* UIKit */,
+				10E0CB242138D2F7004637AC /* Quartz */,
+				10CA8C752133F8A0004CFD6D /* YZTirmMacro.h */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		10CA8C712133F6F7004CFD6D /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				10E0CAFE2137E481004637AC /* UIDevice+YZAdd.h */,
+				10E0CAFD2137E481004637AC /* UIDevice+YZAdd.m */,
+				10CA8C722133F712004CFD6D /* UIView+YZAdd.h */,
+				10CA8C732133F712004CFD6D /* UIView+YZAdd.m */,
+				10E0CACF2137DF9B004637AC /* UIColor+YZAdd.h */,
+				10E0CAD02137DF9B004637AC /* UIColor+YZAdd.m */,
+				10E0CB002138D08D004637AC /* UIBarButtonItem+YZAdd.h */,
+				10E0CB012138D08D004637AC /* UIBarButtonItem+YZAdd.m */,
+				10E0CB142138D15C004637AC /* UIApplication+YZAdd.h */,
+				10E0CB062138D157004637AC /* UIApplication+YZAdd.m */,
+				10E0CB0C2138D15A004637AC /* UIBezierPath+YZAdd.h */,
+				10E0CB092138D159004637AC /* UIBezierPath+YZAdd.m */,
+				10E0CB032138D156004637AC /* UIControl+YZAdd.h */,
+				10E0CB112138D15B004637AC /* UIControl+YZAdd.m */,
+				10E0CB152138D15C004637AC /* UIFont+YZAdd.h */,
+				10E0CB052138D157004637AC /* UIFont+YZAdd.m */,
+				10E0CB0B2138D159004637AC /* UIGestureRecognizer+YZAdd.h */,
+				10E0CB0A2138D159004637AC /* UIGestureRecognizer+YZAdd.m */,
+				10E0CB182138D15D004637AC /* UIImage+YZAdd.h */,
+				10E0CB072138D158004637AC /* UIImage+YZAdd.m */,
+				10E0CB0F2138D15A004637AC /* UIScreen+YZAdd.h */,
+				10E0CB102138D15A004637AC /* UIScreen+YZAdd.m */,
+				10E0CB0D2138D15A004637AC /* UIScrollView+YZAdd.h */,
+				10E0CB0E2138D15A004637AC /* UIScrollView+YZAdd.m */,
+				10E0CB162138D15C004637AC /* UITableView+YZAdd.h */,
+				10E0CB042138D157004637AC /* UITableView+YZAdd.m */,
+				10E0CB122138D15B004637AC /* UITextField+YZAdd.h */,
+				10E0CB132138D15B004637AC /* UITextField+YZAdd.m */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		10E0CAD22137E110004637AC /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				10E0CADD2137E1B1004637AC /* NSArray+YZAdd.h */,
+				10E0CAD72137E1B0004637AC /* NSArray+YZAdd.m */,
+				10E0CAE32137E1B3004637AC /* NSBundle+YZAdd.h */,
+				10E0CAD62137E1B0004637AC /* NSBundle+YZAdd.m */,
+				10E0CADF2137E1B2004637AC /* NSData+YZAdd.h */,
+				10E0CAE82137E1B5004637AC /* NSData+YZAdd.m */,
+				10E0CADB2137E1B1004637AC /* NSDate+YZAdd.h */,
+				10E0CAD92137E1B0004637AC /* NSDate+YZAdd.m */,
+				10E0CAE92137E1B5004637AC /* NSDictionary+YZAdd.h */,
+				10E0CAE22137E1B2004637AC /* NSDictionary+YZAdd.m */,
+				10E0CADC2137E1B1004637AC /* NSKeyedUnarchiver+YZAdd.h */,
+				10E0CAE02137E1B2004637AC /* NSKeyedUnarchiver+YZAdd.m */,
+				10E0CAD82137E1B0004637AC /* NSNotificationCenter+YZAdd.h */,
+				10E0CAEA2137E1B5004637AC /* NSNotificationCenter+YZAdd.m */,
+				10E0CAE12137E1B2004637AC /* NSNumber+YZAdd.h */,
+				10E0CAE52137E1B3004637AC /* NSNumber+YZAdd.m */,
+				10E0CAED2137E1B6004637AC /* NSObject+YZAdd.h */,
+				10E0CAEE2137E1B7004637AC /* NSObject+YZAdd.m */,
+				10E0CADE2137E1B1004637AC /* NSObject+YZAddForKVO.h */,
+				10E0CAEB2137E1B6004637AC /* NSObject+YZAddForKVO.m */,
+				10E0CAE62137E1B3004637AC /* NSThread+YZAdd.h */,
+				10E0CAE72137E1B4004637AC /* NSThread+YZAdd.m */,
+				10E0CAEC2137E1B6004637AC /* NSTimer+YZAdd.h */,
+				10E0CAEF2137E1B7004637AC /* NSTimer+YZAdd.m */,
+				10E0CAD32137E12E004637AC /* NSString+YZAdd.h */,
+				10E0CAD42137E12E004637AC /* NSString+YZAdd.m */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		10E0CB242138D2F7004637AC /* Quartz */ = {
+			isa = PBXGroup;
+			children = (
+				10E0CB252138D303004637AC /* CALayer+YZAdd.h */,
+				10E0CB262138D303004637AC /* CALayer+YZAdd.m */,
+				10E0CB272138D303004637AC /* YZCGUtilities.h */,
+				10E0CB282138D304004637AC /* YZCGUtilities.m */,
+			);
+			path = Quartz;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +331,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10E0CAF12137E1B7004637AC /* NSArray+YZAdd.m in Sources */,
+				10E0CB1C2138D15D004637AC /* UIImage+YZAdd.m in Sources */,
+				10E0CB2A2138D304004637AC /* YZCGUtilities.m in Sources */,
+				10E0CB1F2138D15D004637AC /* UIScrollView+YZAdd.m in Sources */,
+				10E0CAF02137E1B7004637AC /* NSBundle+YZAdd.m in Sources */,
+				10E0CAFC2137E1B7004637AC /* NSTimer+YZAdd.m in Sources */,
+				10E0CB212138D15D004637AC /* UIControl+YZAdd.m in Sources */,
+				10E0CAFA2137E1B7004637AC /* NSObject+YZAddForKVO.m in Sources */,
 				10CA8C5E2133F352004CFD6D /* ViewController.m in Sources */,
+				10E0CB1D2138D15D004637AC /* UIBezierPath+YZAdd.m in Sources */,
+				10E0CB1E2138D15D004637AC /* UIGestureRecognizer+YZAdd.m in Sources */,
+				10E0CAF52137E1B7004637AC /* NSDictionary+YZAdd.m in Sources */,
+				10E0CAF82137E1B7004637AC /* NSData+YZAdd.m in Sources */,
+				10E0CAFB2137E1B7004637AC /* NSObject+YZAdd.m in Sources */,
+				10E0CB222138D15D004637AC /* UITextField+YZAdd.m in Sources */,
+				10E0CAF92137E1B7004637AC /* NSNotificationCenter+YZAdd.m in Sources */,
+				10CA8C742133F712004CFD6D /* UIView+YZAdd.m in Sources */,
+				10E0CB1A2138D15D004637AC /* UIFont+YZAdd.m in Sources */,
+				10E0CAF62137E1B7004637AC /* NSNumber+YZAdd.m in Sources */,
+				10E0CAD52137E12E004637AC /* NSString+YZAdd.m in Sources */,
+				10E0CB1B2138D15D004637AC /* UIApplication+YZAdd.m in Sources */,
 				10CA8C692133F35B004CFD6D /* main.m in Sources */,
+				10E0CAF22137E1B7004637AC /* NSDate+YZAdd.m in Sources */,
+				10E0CAFF2137E481004637AC /* UIDevice+YZAdd.m in Sources */,
+				10E0CAD12137DF9B004637AC /* UIColor+YZAdd.m in Sources */,
 				10CA8C5B2133F352004CFD6D /* AppDelegate.m in Sources */,
+				10E0CB192138D15D004637AC /* UITableView+YZAdd.m in Sources */,
+				10E0CAF72137E1B7004637AC /* NSThread+YZAdd.m in Sources */,
+				10E0CAF42137E1B7004637AC /* NSKeyedUnarchiver+YZAdd.m in Sources */,
+				10E0CB292138D304004637AC /* CALayer+YZAdd.m in Sources */,
+				10E0CB022138D08D004637AC /* UIBarButtonItem+YZAdd.m in Sources */,
+				10E0CB202138D15D004637AC /* UIScreen+YZAdd.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
